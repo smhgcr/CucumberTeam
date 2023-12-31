@@ -27,4 +27,4 @@ Feature: US1012 Window Testti
     And OK diyerek popup i kapatir
     Then ilk sayfaya geri doner
     And ilk sayfaya dondugunu test eder
-    And sayfayi kapatir
+    And acilan tum sayfalari kapatir

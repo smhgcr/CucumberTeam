@@ -102,4 +102,9 @@ public class AmazonStepdefinitions {
         String actualUrl = Driver.getDriver().getCurrentUrl();
         Assert.assertTrue(actualUrl.contains(arananKelime));
     }
+
+    @And("acilan tum sayfalari kapatir")
+    public void acilanTumSayfalariKapatir() {
+        Driver.quitDriver();
+    }
 }
