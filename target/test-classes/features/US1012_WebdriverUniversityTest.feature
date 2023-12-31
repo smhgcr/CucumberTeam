@@ -1,4 +1,3 @@
-
 # "https://webdriveruniversity.com/" adresine gidin
   # "Login Portal"a kadar aşağı inin
   # "Login Portal"a tıklayın
@@ -10,12 +9,11 @@
   # İlk sayfaya geri dönün
   # İlk sayfaya dönüldüğünü test edin
 
-
 @wip
 Feature: US1012 Window Testti
-  
+
   Scenario: TC17 Kullanici yeni acilan window'u test edebilmeli
-    
+
     Given kullanici "wduUrl" anasayfaya gider
     Then Login Portal elementine kadar asagi iner
     And Login Portal a tiklar

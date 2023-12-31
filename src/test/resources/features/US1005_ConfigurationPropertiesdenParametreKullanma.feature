@@ -1,4 +1,5 @@
 
+@p1
 Feature: US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir
 
   # 3 Scenario oluşturup, amazon, iwsequarter ve walmart anasayfalarina gidin
